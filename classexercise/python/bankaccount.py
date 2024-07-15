@@ -15,7 +15,9 @@ while(decision != -1):
 
 	elif(decision == 2):
 		withdraw = int(input('Enter amount to withdraw: '))	
-		if(withdraw > amount):
+		if(withdraw > 0):
+			print('invalid')
+		elif(withdraw > amount):
 			print('Invalid balance')
 		else:
 			amount -= withdraw
