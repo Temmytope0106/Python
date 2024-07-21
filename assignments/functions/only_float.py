@@ -12,3 +12,5 @@ number2 = float(input('Enter a number: '))
 total = only_float(number1, number2)
 
 print(total)
+
+# this is your test will always pass as you already cast ur input to float
