@@ -22,20 +22,25 @@ def is_palindrome(number):
 	reverse = 0
 	userrinput= 0
 	reversee = ''
-	while (number > 0):
+	numberr = 1
+	while (numberr > 0):
 
 		reverse = (reverse * 10) + (int(number % 10))
 		reversee = str(reverse)
 		userrinput = number % 10
 		number = int((number / 10))
+		numberr = number
 
 	if(reversee == number):
+
 		result = 'True'
-	else: 
+	else:
+ 
 		result = 'False'
+
 	return result
 
-number = 12321
+number = 13456
 result = reverse(number)
 resultt = is_palindrome(number)
 print(result)
