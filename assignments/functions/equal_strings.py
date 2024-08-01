@@ -15,7 +15,3 @@ def equal_strings(string1, string2):
 	else: 
 		return False
 
-string1 = input('Enter a word: ')
-string2 = input('Enter another word: ')
-result = equal_strings(string1, string2)
-print(result)

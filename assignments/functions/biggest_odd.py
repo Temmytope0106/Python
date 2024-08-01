@@ -11,8 +11,5 @@ def biggest_odd(number):
 	return largest
 		
 
-number = input('Enter a number: ')
-result = biggest_odd(number)
-print(result)
 				
 				
